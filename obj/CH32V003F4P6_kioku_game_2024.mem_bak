@@ -1,0 +1,58 @@
+.text
+	|	0x000000a0	|	__riscv_save_1     	|	FUNC  	|	0xa
+	|	0x000000aa	|	__riscv_restore_2  	|	FUNC  	|	0xa
+	|	0x000000b4	|	__mulsi3           	|	FUNC  	|	0x14
+	|	0x000000cc	|	__divsi3           	|	FUNC  	|	0x58
+	|	0x000000d4	|	__udivsi3          	|	FUNC  	|	0x2c
+	|	0x00000100	|	__umodsi3          	|	FUNC  	|	0x8
+	|	0x00000124	|	__modsi3           	|	FUNC  	|	0x24
+	|	0x0000014a	|	Clock_init_8MHz    	|	FUNC  	|	0x12
+	|	0x0000015c	|	pin_init           	|	FUNC  	|	0x228
+	|	0x00000384	|	TIM2_interrupt_init	|	FUNC  	|	0x48
+	|	0x000003cc	|	TIM1_PWM_init      	|	FUNC  	|	0x74
+	|	0x00000440	|	tone               	|	FUNC  	|	0x38
+	|	0x00000478	|	no_tone            	|	FUNC  	|	0x18
+	|	0x00000490	|	FLASH_write        	|	FUNC  	|	0x60
+	|	0x000004f0	|	FLASH_read         	|	FUNC  	|	0xc
+	|	0x000004fc	|	FLASH_Erase        	|	FUNC  	|	0x54
+	|	0x00000550	|	bit_replace        	|	FUNC  	|	0x1a
+	|	0x0000056a	|	segment_out        	|	FUNC  	|	0x6e
+	|	0x000005d8	|	segment_out_char   	|	FUNC  	|	0x6e
+	|	0x00000646	|	NMI_Handler        	|	FUNC  	|	0x4
+	|	0x0000064a	|	HardFault_Handler  	|	FUNC  	|	0x2
+	|	0x0000064c	|	segment_print      	|	FUNC  	|	0xe6
+	|	0x00000732	|	main               	|	FUNC  	|	0xa42
+	|	0x00001174	|	TIM2_IRQHandler    	|	FUNC  	|	0x5c
+	|	0x000011d0	|	SystemInit         	|	FUNC  	|	0x12a
+	|	0x000013ac	|	_sbrk              	|	FUNC  	|	0x26
+	|	0x000013d2	|	rand               	|	FUNC  	|	0x72
+	|	0x00001444	|	malloc             	|	FUNC  	|	0xe
+	|	0x00001452	|	_malloc_r          	|	FUNC  	|	0xd4
+	|	0x00001526	|	_sbrk_r            	|	FUNC  	|	0x28
+	|	0x0000154e	|	__malloc_lock      	|	FUNC  	|	0x2
+	|	0x00001550	|	__malloc_unlock    	|	FUNC  	|	0x2
+	|	0x00001552	|	__muldi3           	|	FUNC  	|	0x6a
+
+.data
+	|	0x20000000	|	curbrk.4087        	|	OBJECT	|	0x4
+	|	0x20000004	|	impure_data        	|	OBJECT	|	0x60
+	|	0x20000068	|	_impure_ptr        	|	OBJECT	|	0x4
+
+.bss
+	|	0x20000070	|	__malloc_free_list 	|	OBJECT	|	0x4
+	|	0x20000074	|	__malloc_sbrk_start	|	OBJECT	|	0x4
+	|	0x20000078	|	cnt1               	|	OBJECT	|	0x4
+	|	0x2000007c	|	cnt2               	|	OBJECT	|	0x4
+	|	0x20000080	|	cnt3               	|	OBJECT	|	0x4
+	|	0x20000084	|	cnt4               	|	OBJECT	|	0x4
+	|	0x20000088	|	cnt5               	|	OBJECT	|	0x4
+	|	0x2000008c	|	cnt6               	|	OBJECT	|	0x4
+	|	0x20000090	|	cnt7               	|	OBJECT	|	0x4
+	|	0x20000094	|	dif_wait_time.4502 	|	OBJECT	|	0x4
+	|	0x20000098	|	led_num.4499       	|	OBJECT	|	0x4
+	|	0x2000009c	|	led_num_now.4500   	|	OBJECT	|	0x4
+	|	0x200000a0	|	led_patt.4498      	|	OBJECT	|	0x3e8
+	|	0x20000488	|	mode               	|	OBJECT	|	0x4
+	|	0x2000048c	|	push_led.4501      	|	OBJECT	|	0x4
+	|	0x20000490	|	errno              	|	OBJECT	|	0x4
+

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//Peripheral/inc/ch32v00x.h=GBK
+encoding//Peripheral/src/ch32v00x_flash.c=GBK
+encoding//Startup/startup_ch32v00x.S=GBK
+encoding//User/CH32V003F4P6_Mylib.h=GBK
+encoding//User/Kioku_game_program.c=GBK
+encoding//User/Kioku_game_program.h=GBK
+encoding//User/ch32v00x_conf.h=GBK
+encoding//User/ch32v00x_it.c=GBK
+encoding//User/ch32v00x_it.h=GBK
+encoding//User/system_ch32v00x.c=GBK
+encoding//User/system_ch32v00x.h=GBK
+encoding/CH32V003F4P6_kioku_game_2024.launch=GBK
